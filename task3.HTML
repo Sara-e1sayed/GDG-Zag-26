@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3_GDG</title>
+</head>
+
+<body>
+    <h1>Basic HTML From Elements</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Name(text):</label>
+        <input name="name" required>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Contact & Security</legend>
+        <label>Email:</label>
+        <input type="email" name="email" required autocomplete="off">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="password" required>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Preferences</legend>
+        <label>Favorite Color</label>
+        <input type="color" value="#ff0000" name="fav_color">
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Range & Options</legend>
+        <label>Volume(Range 0-100)</label>
+        <input type="range" name="range">
+        <br>
+        <br>
+        <label>Select Your Favorite Pet</label>
+        <br>
+        <input type="radio" name="fav_pet" id="dog">
+        <label for="dog">dog</label>
+        <br>
+        <input type="radio" name="fav_pet" id="cat">
+        <label for="cat">Cat</label>
+        <br>
+        <input type="radio" name="fav_pet" id="bird">
+        <label for="bird">Bird</label>
+        <br>
+        <br>
+        <label>Interests(Check all that apply):</label>
+        <br>
+        <input type="checkbox" name="Interests" id="cod">
+        <label for="cod">coding</label>
+        <br>
+        <input type="checkbox" name="Interests" id="music">
+        <label for="music">music</label>
+        <br>
+        <input type="checkbox" name="Interests" id="trav">
+        <label for="trav">travel</label>
+        <br>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Selection</legend>
+        <label for="Country">Choose A Country:</label>
+        <select id="Country" name="Country">
+            <optgroup label="Asia"></optgroup>
+            <option>China</option>
+            <option>India</option>
+            <option>Japan</option>
+            <optgroup label="Africia"></optgroup>
+            <option>Egypt</option>
+            <option>Algeria</option>
+            <optgroup label="Europe"></optgroup>
+            <option>Germany</option>
+            <option selected>United Kingdom</option>
+        </select>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Comments</legend>
+        <label>Your Comments(Text_Area):</label>
+        <br>
+        <textarea name="Comments" cols="30" rows="10"></textarea>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>File Upload</legend>
+        <label>Upload a file:</label>
+        <input type="file" name="file" multiple>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Specialized Text Inputs</legend>
+        <label>search this site:</label>
+        <input type="search" name="search"><br><br>
+        <label>Your Website URL:</label>
+        <input type="url" name="url" placeholder="https://example.com">
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Date & Time</legend>
+        <label>Date:</label>
+        <input type="date" name="date">
+        <br>
+        <br>
+        <label>Month:</label>
+        <input type="month" name="month">
+        <br>
+        <br>
+        <label>Time:</label>
+        <input type="time" name="time">
+    </fieldset>
+    <fieldset>
+        <legend>Datalist</legend>
+        <label>Choose a Browser:</label>
+        <input list="browsers" id="browser" name="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+        </datalist>
+    </fieldset>
+    <hr>
+    <input type="submit" value="submit form">
+    <input type="reset" value="clear form">
+</body>
+
+</html>
