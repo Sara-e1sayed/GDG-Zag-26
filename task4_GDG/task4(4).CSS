@@ -1,0 +1,15 @@
+.link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #099;
+    color: white;
+    margin-top: 20px;
+    margin-left: 45%;
+    padding: 20px;
+    width: 100px;
+    border-bottom: 10px #00514a solid;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+}

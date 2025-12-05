@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header home section  */
+.header{
+    background-color:#0476b6 ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.header p{
+    margin-top: 17px;
+}
+/* End header home section  */
+
+/* start about me home section */
+.about{
+    border: 1px solid #5ca0cd;
+    margin-top: 30px;
+    padding: 27px 17px;
+    width: 70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #046095;
+    overflow-y: scroll;
+    
+}.about h2{
+    border: 1px solid #63a5d1;
+    margin-bottom: 6px;
+    
+}
+
+/* end about me home section */
+
+/* start skills section */
+.skills{
+    padding: 10px 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}.skills h2{
+    margin-bottom: 15px;
+    color: #286f9e;
+}.skills ul{
+    margin-left: 25px;
+    list-style-type: square;
+}.skills li{
+    padding: 2px;
+}
+/* end skills section */
+/* start my-project section */
+.project{
+    border: 2px dashed #63a5d1;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 30px 20px;
+}.project img{
+    width: 150px;
+    border: 2px solid #63a5d1;
+}.project .lang div{
+    display: inline-block;
+    border: 2px solid #63a5d1;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}.project .lang{
+    margin-left: 20% ;
+}.project .lang a{
+    display: inline-block;
+    margin: 8px;
+    color: #0476b6;
+}.project h2{
+    margin-bottom: 20px;
+    color: #286f9e;
+}.project .github{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 5px;
+    color: #fff;
+    background-color:#5ca0cd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* end my-project section */

@@ -1,0 +1,7 @@
+.Shadow {
+  font-family: "Droid Arabic Kufi", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-shadow: 1px 0.5px 0px #e33e32, 1.5px 1px 0px #29f, 2px 1.5px 0px #a2b;
+  text-align: center;
+}

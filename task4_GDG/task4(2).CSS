@@ -1,0 +1,23 @@
+ .Container{
+    border: .5px #ddd solid;
+    width: 400px;
+    margin: auto;
+  }
+  .one {
+  text-transform: uppercase;
+}
+  
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform:lowercase ;
+}
+.one, .two, .three {
+  font-family:"Droid Arabic Kufi", sans-serif;
+  text-align: center;
+  margin: 15px 0px;
+  padding: 10px 0px;
+  }
+ 
