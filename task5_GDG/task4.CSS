@@ -1,0 +1,12 @@
+table{
+    margin: 30px;
+    width: 20%;
+    border-collapse: separate;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    border-spacing: 2px;
+    border: 1px solid #Ccc;
+}th,td{
+    padding: 15px;
+    background-color: #eee;
+}

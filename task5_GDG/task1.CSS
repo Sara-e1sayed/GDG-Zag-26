@@ -1,0 +1,20 @@
+h2{
+    font-family:cursive;
+    font-weight:bold;
+    font-size: 50px;
+}
+.task1 {
+    margin-top: 70px;
+}
+
+.task1 img {
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.task1 p {
+    float: left;
+    width: 55%;
+    font-size: 30px;
+}

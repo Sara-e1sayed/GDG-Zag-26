@@ -1,0 +1,25 @@
+h2{
+    font-family:cursive;
+    font-weight:bold;
+    font-size: 50px;
+}div{
+    width: 300px;
+    height: 300px;
+    display: block;   
+    margin-bottom: 20px;
+    position: relative;
+}
+.p1{
+    background-color: rgba(195, 14, 14, 1);
+    left: 0px;
+}
+.p2{
+    background-color: rgba(14, 195, 174, 1);
+    left: 70px;
+    bottom: 249px;
+}
+.p3{
+    background-color: rgba(135, 14, 195, 1);
+    left: 150px;
+    bottom: 500px;
+}

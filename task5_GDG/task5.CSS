@@ -1,0 +1,118 @@
+
+hr{
+    margin: 60px 0px;
+  border: 1.5px solid transparent;
+  background-color: rgb(0, 0, 0);
+}h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.task1 div {
+  width: 300px;
+  height: 60px;
+  margin: 15px auto;
+  line-height: 60px;
+  padding: 15px;
+  background-color: #eee;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+div:empty {
+  background-color: red;
+}
+
+.task2 {
+  background-color: #ccc;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.task2:first-letter {
+  background-color: red;
+  color: white;
+  margin-left: -35px;
+  padding: 15px 10px;
+}
+
+
+.task3 {
+  width: 660px;
+  margin: auto;
+}
+.task3 p {
+  background-color: #eee;
+  width: 450px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 19px;
+  position: relative;
+  margin-left: 170px;
+  border-left: #f26 5px solid;
+}
+.task3 p::before {
+  content: attr(data-person);
+  width: 80px;
+  position: absolute;
+  left: -150px;
+  background-color: #eee;
+  padding: 15px;
+  top: 0;
+  text-align: center;
+}
+
+.task3 p::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: transparent #f26 transparent transparent;
+  border-width: 10px;
+  border-style: solid;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+
+.task4 {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.task4 p {
+  width: 400px;
+  counter-increment: numbers;
+  background-color: #eee;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 60px;
+}
+
+.task4 p::before {
+  content: counter(numbers);
+  background-color: #f43;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+
+.task4 p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7px;
+  height: 100%;
+  background-color: #f43;
+}
